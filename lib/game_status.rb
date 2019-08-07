@@ -66,7 +66,7 @@ def over?(board)
       if draw(board) == true
       true
     else
-    true
+    false
   else
   true
 else
