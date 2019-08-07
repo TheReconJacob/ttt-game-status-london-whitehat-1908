@@ -71,6 +71,7 @@ def over?(board)
     false
   end
 end
+
 def winner(board)
   winner = nil
   WIN_COMBINATIONS.each do |combo|
