@@ -59,7 +59,6 @@ def over?(board)
     end
   else
     false
-  end
 end
 
 def winner(board)
