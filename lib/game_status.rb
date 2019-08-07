@@ -57,7 +57,6 @@ def over?(board)
     else 
       false
   end
-end
 
 def winner(board)
   winner = nil
