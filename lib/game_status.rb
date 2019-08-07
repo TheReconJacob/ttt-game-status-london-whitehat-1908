@@ -60,12 +60,6 @@ def over?(board)
   else
     false
   end
-  if won?(board) == true
-      true
-    else 
-      false
-    end
-  end
 end
 
 def winner(board)
