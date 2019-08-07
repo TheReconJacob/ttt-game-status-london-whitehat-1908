@@ -76,6 +76,7 @@ else
 end
 end
 end
+end
 def winner(board)
   winner = nil
   WIN_COMBINATIONS.each do |combo|
