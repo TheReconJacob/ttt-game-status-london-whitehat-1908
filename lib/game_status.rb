@@ -61,6 +61,15 @@ def over?(board)
   else
     false
   end
+  if won?(board)
+    if draw?(board) == false
+      true
+    else 
+      false
+    end
+  else
+    false
+  end
 end
 def winner(board)
   winner = nil
